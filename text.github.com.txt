@@ -1,0 +1,23 @@
+﻿git init
+md test
+cd test
+git status
+git add test
+git status
+
+git remote add origin git@github.com:dennysjchen/web.git
+
+git commit - m "first comment"
+git status
+git push origin master
+
+
+git remote rm origin
+
+git remote add origin git@github.com:dennysjchen/web2.git
+
+git add code\tongjitext.py
+git add data\tongji.text
+
+git commit -m "remark"
+git push -u origin master
